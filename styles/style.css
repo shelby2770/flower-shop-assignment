@@ -1,0 +1,52 @@
+*{
+    margin: auto;
+}
+
+header{
+    display: flex;
+    background-color: rgba(229, 84, 115, .1);
+    max-height: 90vh;
+}
+
+
+.intro{
+    margin: 120px 0 147px 140px;
+}
+
+.intro_title{
+    font-size: 55px;
+    font-weight: 790;
+}
+
+.description{
+    margin: 25px 0;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22px;
+    padding-right: 170px;
+}
+
+.primary_button{
+    font-size: larger;
+    color: #FFFFFF;
+    background-color:#E55473;
+    padding: 20px 35px 20px 35px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.primary_button:hover{
+    font-size: larger;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 20px 35px 20px 35px;
+    border: 2px solid #E55473;
+    border-radius: 8px;
+}
+
+.image_insertion{
+    /* position: absolute; */
+    padding-top: 25px;
+    padding-right: 115px;
+}
