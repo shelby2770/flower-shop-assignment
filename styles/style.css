@@ -34,7 +34,7 @@ header{
     font-size: larger;
     color: #FFFFFF;
     background-color:#E55473;
-    padding: 20px 35px 20px 35px;
+    padding: 15px 30px 15px 30px;
     border-radius: 8px;
     transition-duration: 0.4s;
 }
@@ -43,7 +43,7 @@ header{
     font-size: larger;
     background-color: #FFFFFF;
     color: black;
-    padding: 20px 35px 20px 35px;
+    padding: 15px 30px 15px 30px;
     border: 2px solid #E55473;
     border-radius: 8px;
 }
@@ -71,14 +71,25 @@ header{
     margin-bottom: -350px;
 }
 
+#img1{
+    position: absolute;
+    margin-left: 35px;
+}
+#img2{
+    position: absolute;
+    margin-left: 360px;
+}
+#img3{
+    margin-right: 20px;
+}
+
 .border{
     width: 1000px;
     height: 500px;
-    margin-left: 20px;
 }
 
 .default_border{
-    width: 200px;
+    width: 222px;
     height: 300px;
     float: left;
     padding: 40px;
@@ -101,7 +112,6 @@ header{
     display: flex;
     text-decoration: underline;
     margin-top: -90px;
-    margin-right: 100px;
 }
 
 .all_title{
@@ -112,14 +122,55 @@ header{
 .delivery_support{
     padding: 20px 40px 20px 40px;
     margin-top: 80px;
-    margin-right: 100px;
     background-color: rgba(39, 39, 39, 0.05);
-    max-height: 30vh;
     display: flex;
     border-radius: 5px;
+
 }
 
 .image_msg{
     display: flex;
     margin-bottom: 100px;
+}
+
+.flower_vase_sec{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 10px 70px;
+    display: flex;
+    background-color: rgba(229, 84, 115, .1);
+    max-height: 60vh;
+}
+
+.deal{
+    max-width: 450px;
+    text-align: center;
+}
+
+.rev_color{
+    color: #E55473;
+}
+
+.gappie{
+    margin-right: 9px;
+    margin-bottom: 100px;
+}
+
+.subscribe_my_channel{
+    padding: 80px 0;
+    max-height: 300px;
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+    text-align: center;
+    /* width: 50px; */
+}
+
+.email{
+    width: 400px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: large;
 }
