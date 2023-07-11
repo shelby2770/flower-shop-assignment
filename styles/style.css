@@ -152,8 +152,12 @@ header{
 }
 
 .gappie{
-    margin-right: 9px;
+    margin-right: 12px;
     margin-bottom: 100px;
+}
+
+.gappie2{
+    margin-bottom: 100px
 }
 
 .subscribe_my_channel{
@@ -165,7 +169,6 @@ header{
     background-size: cover;
     margin-bottom: 100px;
     text-align: center;
-    /* width: 50px; */
 }
 
 .email{
@@ -173,4 +176,23 @@ header{
     height: 48px;
     border-radius: 8px;
     font-size: large;
+}
+
+footer{
+    background-color: black;
+    max-height: 30vh;
+    padding: 100px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#fnt_change{
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+#fnt_change2{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 11px;
 }
