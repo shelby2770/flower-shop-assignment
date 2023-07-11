@@ -196,3 +196,7 @@ footer{
     color: rgba(255, 255, 255, 0.40);
     font-size: 11px;
 }
+
+#new_page{
+    cursor: pointer;
+}
